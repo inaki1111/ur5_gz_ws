@@ -1,0 +1,35 @@
+# Carpetas generadas por colcon build
+build/
+install/
+log/
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*.tmp
+*~
+
+# Archivos de VSCode (si usas)
+.vscode/
+
+# Archivos de JetBrains IDEs (CLion, PyCharm, etc.)
+.idea/
+
+# Python cache (si tienes scripts en Python)
+__pycache__/
+*.pyc
+
+# Archivos de ROS2
+*.launch.pyc
+
+# Archivos de configuración de CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Dependencias locales (opcional)
+.colcon/
+
+# Archivos de pruebas o resultados (opcional)
+*.test_result
